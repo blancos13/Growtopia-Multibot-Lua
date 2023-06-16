@@ -5,6 +5,7 @@ Fully working don't pay for AutoFarm app
 ```lua
 
 Unzip rar in Vendor
+Build as x64 release
 ```
 
 ## FindItem
