@@ -216,14 +216,14 @@ std::string ClientData::Create() {
 	m_ret << "f|" << personal.filter_innapropriate << "\n";
 	m_ret << "protocol|" << protocol << "\n";
 	m_ret << "game_version|" << game_version << "\n";
-	m_ret << "fz|" << "45300776" << "\n";
+	m_ret << "fz|" << "52934184" << "\n";
 	m_ret << "lmode|" << lmode << "\n";
 	m_ret << "cbits|" << personal.GetCbits() << "\n";
 	m_ret << "player_age|" << player_age << "\n";
 	m_ret << "GDPR|" << (int)1 << "\n";
 	m_ret << "category|" << "wotd_world" << "\n";
 	m_ret << "totalPlaytime|" << "0" << "\n";
-	m_ret << "klv|" << "7d0d145742efe9ac5dbda168935a6230ea6528889caef384843d903b78121c78" << "\n";
+	m_ret << "klv|" << "0addf484b40d20202fc0d4447fc54ab4339454be366c9b1114108ad9727a503c" << "\n";
 	m_ret << "hash2|" + std::to_string(proton_hash(std::string(mac + "RT").c_str())) << "\n";
 	m_ret << "meta|" << meta << "\n";
 	m_ret << "fhash|" << (int)-716928004 << "\n";
