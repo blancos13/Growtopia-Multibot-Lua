@@ -1,6 +1,11 @@
 # Growtopia-Multibot-Lua
 Fully working don't pay for AutoFarm app
 
+## Error
+```lua
+
+Unzip rar in Vendor
+```
 
 ## FindItem
 ```lua
