@@ -4,6 +4,8 @@ Fully working don't pay for AutoFarm app
 ## Example Function
 .
 ## FindItem
+```lua
+
 function FindItem(id)
     for _, itm in pairs(GetInventory()) do
         if itm.id == id then
@@ -12,8 +14,9 @@ function FindItem(id)
     end
     return 0
 end
-
+```
 ## Plant
+```lua
 
 function plant()
     for _, tile in pairs(GetTiles()) do
@@ -25,8 +28,9 @@ function plant()
         end
     end
 end
-
+```
 ## Harvest
+```lua
 
 function harvest()
     for _, tile in pairs(GetTiles()) do
@@ -43,9 +47,10 @@ function harvest()
     end
     return false
 end
-
+```
 
 ## Break
+```lua
 
 function bbreak()
     while FindItem(2) > 0 do
@@ -74,5 +79,5 @@ function bbreak()
         end
     end
 end
-
+```
 
