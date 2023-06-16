@@ -105,8 +105,8 @@ int PersonalSetting::GetCbits() {
 }
 
 // ClientData
-int protocol = 191;
-float game_version = 4.29;
+int protocol = 192;
+float game_version = 4.3;
 int player_age = 25;
 
 ClientData::ClientData() {
