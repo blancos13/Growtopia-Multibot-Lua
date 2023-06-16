@@ -1,8 +1,7 @@
 # Growtopia-Multibot-Lua
 Fully working don't pay for AutoFarm app
 
-## Example Function
-.
+
 ## FindItem
 ```lua
 
