@@ -7,6 +7,7 @@ Fully working don't pay for AutoFarm app
 Unzip rar in Vendor
 Build as x64 release
 ```
+https://github.com/Altanb21/Growtopia-Multibot-Lua/assets/94198465/11bef829-ac5d-45b5-9033-71ec2e6f8e48
 
 ## FindItem
 ```lua
@@ -18,6 +19,8 @@ function FindItem(id)
         end
     end
     return 0
+
+
 end
 ```
 ## Plant
