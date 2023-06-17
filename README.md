@@ -1,6 +1,10 @@
 # Growtopia-Multibot-Lua
 Fully working don't pay for AutoFarm app
 
+## Ruby proxy Discord Server
+
+https://discord.gg/vxxcJ42584
+
 ## Error
 ```lua
 
